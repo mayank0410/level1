@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(49, 45, 45);
+}
+
+.vid-head{
+    width: 100%;
+    height: auto;
+}
+
+.new-bar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mid-div{
+    background-color: rgb(49, 45, 45);
+}
+.mid-head{
+    color: white;
+    margin: 3% auto;
+}
+
+iframe{
+    border-radius: 5%;
+    margin: 2% auto;
+}
+iframe:hover{
+    box-shadow: 2px 2px 5px 5px black;
+}
+
+.mid-head-two{
+    color: white;
+    margin: 2% auto;
+}
+
+.team-info{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 2%;
+    padding: 10px;
+}
+
+.player{
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.ply{
+    color: white;
+    font-size: 2vh;
+    text-shadow: 5px 5px 5px yellow;
+}
+
+.contact-div{
+    margin: 10% auto 5% auto;
+}
+
+.touch{
+    color: rgb(114, 114, 114);
+    text-shadow: 5px 5px 5px black;
+    margin-bottom: 50px;
+}
+
+.textA{
+    display: block;
+    margin: 50px auto 50px auto;
+    border-top: none;
+    outline: none;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    color: rgb(209, 208, 208);
+    width: 41.5%;
+}
+@media (min-width:300px) and (max-width:700px){
+    .textA{
+        width: 67%;
+    }
+}
+
+.btno{
+    display: block;
+    margin: 30px auto 70px auto;
+    outline:lightskyblue;
+    border: 1px sold lightskyblue;
+    background-color: transparent;
+    color: lightskyblue;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+.btno:hover{
+    background-color: rgb(100, 141, 255);
+    color: whitesmoke;
+}
+
+.first{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    margin-right: 20px;
+    outline: none;
+    color: rgb(209, 208, 208);
+    border-bottom: .2px solid;
+    margin-top: 10px;
+}
+
+.foot{
+    border-radius: 50%;
+    width: 4%;
+    height: auto;
+}
+
+.foot1{
+    background-color: whitesmoke;
+    padding-top: 50px;
+    transition: all .5s ease-in-out;
+}
+
+.foot:hover{
+    transform: translateY(-5px);
+}
+
+.MSR{
+    display: block;
+    margin: 50px auto 0 auto;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: black;
+    outline: none;
+    box-shadow: 1px 1px 10px 10px black;
+    border: none;
+    transition: all .4s ease-in-out;
+}
+.MSR:hover{
+    color: blanchedalmond;
+    text-shadow: 5px 10px 3px yellow;
+}
